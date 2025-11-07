@@ -2,38 +2,39 @@
 
 ## Phase 1: 기본 인프라 (1주)
 
-- [ ] Next.js 프로젝트 셋업
-  - [ ] 프로젝트 초기화 확인
-  - [ ] TypeScript 설정 확인
-  - [ ] Tailwind CSS 설정 확인
-  - [ ] shadcn/ui 설정 확인
-- [ ] Supabase 프로젝트 생성 및 테이블 스키마 작성
+- [x] Next.js 프로젝트 셋업
+  - [x] 프로젝트 초기화 확인
+  - [x] TypeScript 설정 확인
+  - [x] Tailwind CSS 설정 확인
+  - [x] shadcn/ui 설정 확인
+- [x] Supabase 프로젝트 생성 및 테이블 스키마 작성
   - [x] Supabase 프로젝트 생성
   - [x] 테이블 스키마 작성 (products, cart_items, orders, order_items)
   - [x] 인덱스 생성
   - [x] 트리거 및 함수 생성
   - [x] 샘플 데이터 삽입 (20개)
-- [ ] Clerk 연동 (회원가입/로그인)
-  - [ ] Clerk 프로젝트 생성 및 설정
-  - [ ] 환경 변수 설정
-  - [ ] ClerkProvider 설정
-  - [ ] 로그인/회원가입 페이지 구현
-  - [ ] 인증 미들웨어 설정
-  - [ ] Clerk → Supabase 사용자 동기화
-- [ ] 기본 레이아웃 및 라우팅
-  - [ ] RootLayout 구현
-  - [ ] 네비게이션 바 구현
+- [x] Clerk 연동 (회원가입/로그인)
+  - [x] Clerk 프로젝트 생성 및 설정
+  - [x] 환경 변수 설정
+  - [x] ClerkProvider 설정
+  - [x] 로그인/회원가입 페이지 구현 (모달 방식 - Navbar의 SignInButton 사용)
+  - [x] 인증 미들웨어 설정
+  - [x] Clerk → Supabase 사용자 동기화
+- [x] 기본 레이아웃 및 라우팅
+  - [x] RootLayout 구현
+  - [x] 네비게이션 바 구현
   - [ ] 푸터 구현
-  - [ ] 기본 라우팅 구조 설정
+  - [x] 기본 라우팅 구조 설정
   - [ ] 404 페이지 구현
 
 ## Phase 2: 상품 기능 (1주)
 
 - [ ] 홈페이지
+  - [x] 상품 목록(그리드) 섹션 (최신 16개, 이름/가격/카테고리)
   - [ ] 메인 배너/히어로 섹션
   - [ ] 인기 상품 섹션
   - [ ] 카테고리별 추천 상품
-  - [ ] 반응형 레이아웃
+  - [x] 반응형 레이아웃
 - [ ] 상품 목록 페이지
   - [ ] 상품 목록 조회 API/Server Action
   - [ ] 상품 카드 컴포넌트
